@@ -1,0 +1,777 @@
+2025-09-07 04:10:38|__main__        | WARNING | picamera not found, trying cv2_camera
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 's' for action 'snap_None'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 'S' for action 'snap_None'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding '<F1>' for action 'snap_None'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 'f' for action 'snap_Four'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 'F' for action 'snap_Four'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding '<F2>' for action 'snap_Four'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 'a' for action 'snap_Animation'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 'A' for action 'snap_Animation'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding '<F3>' for action 'snap_Animation'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding 'e' for action 'send_email'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding '@' for action 'send_email'
+2025-09-07 04:10:41|user_interface  | DEBUG   | Installing keybinding '<Escape>' for action 'configure'
+2025-09-07 04:10:41|user_interface  | WARNING | install_key_binding: no action 'send_print'
+2025-09-07 04:10:41|tkImageLabel    | DEBUG   | Created ImageLabel with size (1280, 720)
+2025-09-07 04:10:41|user_interface  | WARNING | No hardware buttons found, generating software buttons
+2025-09-07 04:10:42|picamera2.picamera2| INFO    | Initialization successful.
+2025-09-07 04:10:42|picamera2.picamera2| INFO    | Camera now open.
+2025-09-07 04:10:42|picamera2.picamera2| DEBUG   | <libcamera._libcamera.CameraManager object at 0x7f72f965b0>
+2025-09-07 04:10:42|picamera2.picamera2| DEBUG   | Requesting configuration: {'use_case': 'preview', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 4, 'queue': True, 'main': {'format': 'RGB888', 'size': (1280, 720), 'preserve_ar': True, 'stride': 3840, 'framesize': 2764800}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (1536, 864), 'stride': 1920, 'framesize': 1658880}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.Minimal: 3>, 'FrameDurationLimits': (100, 83333)}, 'sensor': {'bit_depth': 10, 'output_size': (1536, 864)}, 'display': 'main', 'encode': 'main'}
+2025-09-07 04:10:42|picamera2.picamera2| INFO    | Camera configuration has been adjusted!
+2025-09-07 04:10:42|picamera2.picamera2| INFO    | Configuration successful!
+2025-09-07 04:10:42|picamera2.picamera2| DEBUG   | Final configuration: {'use_case': 'preview', 'transform': <libcamera.Transform 'identity'>, 'colour_space': <libcamera.ColorSpace 'sYCC'>, 'buffer_count': 4, 'queue': True, 'main': {'format': 'RGB888', 'size': (1280, 720), 'preserve_ar': True, 'stride': 3840, 'framesize': 2764800}, 'lores': None, 'raw': {'format': 'SBGGR10_CSI2P', 'size': (1536, 864), 'stride': 1920, 'framesize': 1658880}, 'controls': {'NoiseReductionMode': <NoiseReductionModeEnum.Minimal: 3>, 'FrameDurationLimits': (100, 83333)}, 'sensor': {'bit_depth': 10, 'output_size': (1536, 864)}, 'display': 'main', 'encode': 'main'}
+2025-09-07 04:10:42|picamera2.picamera2| DEBUG   | Streams: {'main': <libcamera._libcamera.Stream object at 0x7f59c112b0>, 'lores': None, 'raw': <libcamera._libcamera.Stream object at 0x7f59c110b0>}
+2025-09-07 04:10:42|picamera2       | DEBUG   | Allocated 4 buffers for stream 0 with fds [34, 37, 40, 43]
+2025-09-07 04:10:42|picamera2       | DEBUG   | Allocated 4 buffers for stream 1 with fds [46, 49, 52, 55]
+2025-09-07 04:10:42|picamera2.picamera2| INFO    | Camera started
+2025-09-07 04:10:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a7e50>
+2025-09-07 04:10:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909a2e50>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0150>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f8250>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3b50>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a7310>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6c990>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a48d0>
+2025-09-07 04:10:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a5f50>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97e550>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3b50>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a5ed0>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6c990>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97e550>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a71d0>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10610>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3b50>
+2025-09-07 04:10:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6c990>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10610>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b1310>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a5f50>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a5c90>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6c990>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77e10>
+2025-09-07 04:10:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10610>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c100d0>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77e10>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b1310>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10610>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa05d0>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4fcd0>
+2025-09-07 04:10:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a7310>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b1310>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f8250>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f5310>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897e90>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8210>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2090>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80f90>
+2025-09-07 04:10:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6d450>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3b50>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80f90>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97f50>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6d450>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2fd0>
+2025-09-07 04:10:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3b50>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2910>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c13fd0>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97fb50>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e6e10>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2910>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3b50>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2290>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8350>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80b10>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80950>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8290>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8350>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02e790>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77c10>
+2025-09-07 04:10:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897e90>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a8610>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f9081a4d0>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77c10>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b063010>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10750>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8410>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0b90>
+2025-09-07 04:10:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7b10>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97e10>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48e90>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8410>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8650>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e71d0>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:10:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77c10>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a8610>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97f990>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d910>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e71d0>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa04d0>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe7090>
+2025-09-07 04:10:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a85d0>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4fcd0>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8410>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97f990>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8b90>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b06d0>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4fcd0>
+2025-09-07 04:10:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73574350>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2c50>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8aa350>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10710>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6d7d0>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4fcd0>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8aa350>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2990>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:10:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2550>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77050>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8b90>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73574350>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f735471d0>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77050>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7355f810>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4fcd0>
+2025-09-07 04:10:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0b90>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7355f810>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b063010>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77c10>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8b90>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8aa350>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48e90>
+2025-09-07 04:10:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b063010>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2550>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5ea50>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8a50>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88ad0>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10750>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4c650>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2690>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5ea50>
+2025-09-07 04:10:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77050>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10350>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b90d0>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4c650>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77050>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10910>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2550>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8b90>
+2025-09-07 04:10:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10350>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e5210>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4c650>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10910>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10350>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10950>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba550>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b1390>
+2025-09-07 04:11:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba550>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8b90>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10950>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8350>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba550>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b012450>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10850>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88ad0>
+2025-09-07 04:11:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7d90>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0b90>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b012550>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b012390>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9550>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0b90>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8b90>
+2025-09-07 04:11:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7d90>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5ea50>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0b90>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2550>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b012450>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8f50>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba350>
+2025-09-07 04:11:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b90d0>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2550>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b1390>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba750>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5ea50>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8350>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73545dd0>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8e90>
+2025-09-07 04:11:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717d7b90>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b90d0>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba550>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73545dd0>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717d7b90>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0610>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2c90>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0490>
+2025-09-07 04:11:05|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2c90>
+2025-09-07 04:11:06|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48e90>
+2025-09-07 04:11:06|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2210>
+2025-09-07 04:11:06|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:11:06|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0610>
+2025-09-07 04:11:06|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f734f0850>
+2025-09-07 04:11:06|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e71d0>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4ff10>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8ba390>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f734f0850>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b012390>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0610>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0490>
+2025-09-07 04:11:07|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6fbd0>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8c50>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b012550>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0490>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b0490>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2350>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97bd0>
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48e90>
+2025-09-07 04:11:08|user_interface  | INFO    | Effect colorswap0 selected
+2025-09-07 04:11:08|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717d7b90>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0950>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76b90>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77550>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7355f810>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0950>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88ad0>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909fadd0>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73574750>
+2025-09-07 04:11:09|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e5650>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88ad0>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa04d0>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76b90>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e5650>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73574750>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa04d0>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88510>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:10|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a0abd0>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10d90>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10790>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88510>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a0abd0>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4ff10>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f734f0850>
+2025-09-07 04:11:11|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897e90>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7355f810>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897ad0>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d910>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f96010>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897e90>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f737a50d0>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77e10>
+2025-09-07 04:11:12|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897e50>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b062d90>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97bd0>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5e890>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f737a50d0>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8690>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:13|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f96010>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f832d0>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f95950>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5e890>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908c1dd0>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77550>
+2025-09-07 04:11:14|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909a2e50>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a0abd0>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f95950>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b062d90>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897e50>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8e10>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:15|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f10>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80950>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71828810>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f10>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd3a10>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe23d0>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8690>
+2025-09-07 04:11:16|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f737a50d0>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f5d50>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0950>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dc90>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88ad0>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:17|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8690>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8250>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe23d0>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717fbe50>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8ad0>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717fbe50>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7182b950>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71828810>
+2025-09-07 04:11:18|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6fbd0>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f832d0>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76e10>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f736b6d50>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f96b50>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76310>
+2025-09-07 04:11:19|user_interface  | INFO    | Snaping photo (mode=None)
+2025-09-07 04:11:19|tkImageLabel    | DEBUG   | Unloading image
+2025-09-07 04:11:19|user_interface  | DEBUG   | snap: single picture
+2025-09-07 04:11:19|user_interface  | ERROR   | snap: error during snapshot
+Traceback (most recent call last):
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 467, in snap
+    self.__show_countdown(config.countdown1,annotate_size = 160)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 696, in __show_countdown
+    self.__show_overlay_countdown(countdown)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 787, in __show_overlay_countdown
+    overlay = self.camera.add_overlay(overlay_image.tobytes(), size=overlay_image.size)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Camera' object has no attribute 'add_overlay'
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10d10>
+2025-09-07 04:11:19|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8ad0>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f82b10>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76e10>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76310>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71828810>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77550>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a0abd0>
+2025-09-07 04:11:20|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f75410>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f5d50>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f82b10>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0b8990>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f5d50>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4acd0>
+2025-09-07 04:11:21|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f74d50>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f74d50>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f74f90>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b88d0>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f8250>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10b90>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77490>
+2025-09-07 04:11:22|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f832d0>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4acd0>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10790>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909a2e50>
+2025-09-07 04:11:23|user_interface  | INFO    | Snaping photo (mode=Animation)
+2025-09-07 04:11:23|tkImageLabel    | DEBUG   | Unloading image
+2025-09-07 04:11:23|user_interface  | DEBUG   | snap: starting animation
+2025-09-07 04:11:23|user_interface  | ERROR   | snap: error during snapshot
+Traceback (most recent call last):
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 547, in snap
+    self.__show_countdown(config.countdown1,annotate_size = 50)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 696, in __show_countdown
+    self.__show_overlay_countdown(countdown)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 787, in __show_overlay_countdown
+    overlay = self.camera.add_overlay(overlay_image.tobytes(), size=overlay_image.size)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Camera' object has no attribute 'add_overlay'
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6fbd0>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10d90>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10d90>
+2025-09-07 04:11:23|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9450>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f8250>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909a2e50>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f887d0>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717d7b90>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0b8990>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f737a50d0>
+2025-09-07 04:11:24|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a900ed0>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f97d0>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d2950>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0790>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a900ed0>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717fbe50>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71828810>
+2025-09-07 04:11:25|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4ec10>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f736b6d50>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e7cd0>
+2025-09-07 04:11:26|user_interface  | INFO    | Snaping photo (mode=Four)
+2025-09-07 04:11:26|tkImageLabel    | DEBUG   | Unloading image
+2025-09-07 04:11:26|user_interface  | DEBUG   | snap: starting collage of four
+2025-09-07 04:11:26|user_interface  | ERROR   | snap: error during snapshot
+Traceback (most recent call last):
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 502, in snap
+    self.__show_countdown(config.countdown1,annotate_size = 80)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 696, in __show_countdown
+    self.__show_overlay_countdown(countdown)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 787, in __show_overlay_countdown
+    overlay = self.camera.add_overlay(overlay_image.tobytes(), size=overlay_image.size)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Camera' object has no attribute 'add_overlay'
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f10>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897dd0>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f8250>
+2025-09-07 04:11:26|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80f90>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8690>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f3d0>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9690>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97fb50>
+2025-09-07 04:11:27|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b95d0>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76b90>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4dd10>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0150>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f8250>
+2025-09-07 04:11:28|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9610>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f94090>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f97d0>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48f10>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c25f50>
+2025-09-07 04:11:29|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2a10>
+2025-09-07 04:11:30|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f94110>
+2025-09-07 04:11:30|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:30|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:11:30|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77f90>
+2025-09-07 04:11:30|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f737a50d0>
+2025-09-07 04:11:30|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b2a10>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76b90>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5fed0>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8ad0>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f737a50d0>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f10>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97f50>
+2025-09-07 04:11:31|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717f8ad0>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0150>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b17d0>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4ff10>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10b50>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0150>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f94450>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a8410>
+2025-09-07 04:11:32|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8aa810>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8aa810>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f50>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f2d0>
+2025-09-07 04:11:33|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8a5f10>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f94450>
+2025-09-07 04:11:34|user_interface  | INFO    | Effect colorswap1 selected
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88510>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897dd0>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7d90>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b95d0>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f94450>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80950>
+2025-09-07 04:11:34|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f3d0>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9610>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71828810>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6c990>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8350>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b062f10>
+2025-09-07 04:11:35|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8350>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909e6e10>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80110>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f10>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897ad0>
+2025-09-07 04:11:36|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a897f50>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10850>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0950>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b97d0>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10390>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b8210>
+2025-09-07 04:11:37|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9690>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10350>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a8b9d10>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa0790>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a09050>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0b8990>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10390>
+2025-09-07 04:11:38|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f3d0>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f969d0>
+2025-09-07 04:11:39|user_interface  | INFO    | Snaping photo (mode=Four)
+2025-09-07 04:11:39|tkImageLabel    | DEBUG   | Unloading image
+2025-09-07 04:11:39|user_interface  | DEBUG   | snap: starting collage of four
+2025-09-07 04:11:39|user_interface  | ERROR   | snap: error during snapshot
+Traceback (most recent call last):
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 502, in snap
+    self.__show_countdown(config.countdown1,annotate_size = 80)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 696, in __show_countdown
+    self.__show_overlay_countdown(countdown)
+  File "/home/himesh/pbooth/khichik/scripts/user_interface.py", line 787, in __show_overlay_countdown
+    overlay = self.camera.add_overlay(overlay_image.tobytes(), size=overlay_image.size)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Camera' object has no attribute 'add_overlay'
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f96210>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f3d0>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76310>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f9ed0>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f3d0>
+2025-09-07 04:11:39|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa04d0>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f9ed0>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f81390>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97f50>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a14950>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f763d0>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804550>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97f50>
+2025-09-07 04:11:40|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa04d0>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97f50>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97f50>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4e290>
+2025-09-07 04:11:41|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c100d0>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd30d0>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e990>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72fa04d0>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97bd0>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71828810>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f763d0>
+2025-09-07 04:11:42|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48ed0>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08110>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0b8990>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f734f0850>
+2025-09-07 04:11:43|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48ed0>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f75b50>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f82010>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909fb8d0>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f3d0>
+2025-09-07 04:11:44|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f58ed0>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f735467d0>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08050>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5a950>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f58ed0>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08050>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b061890>
+2025-09-07 04:11:45|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3dd0>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f58ed0>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f5a950>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908b7c10>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909fb6d0>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d3dd0>
+2025-09-07 04:11:46|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909fb8d0>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4c590>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e990>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48ed0>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b063010>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0b9510>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:11:47|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f77210>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e750>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f9350>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b061890>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f76650>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4ae50>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909d2950>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f9350>
+2025-09-07 04:11:48|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f99d0>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6d4d0>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e750>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f89550>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f96210>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f9350>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:49|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02e7d0>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1a10>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a900ed0>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4c590>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd30d0>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b063010>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909fb6d0>
+2025-09-07 04:11:50|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909facd0>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f734f0850>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4c590>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1a10>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02e7d0>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a09050>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd30d0>
+2025-09-07 04:11:51|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97fd0>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97fd0>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd30d0>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd30d0>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97e90>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4ec10>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73547010>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f717c6210>
+2025-09-07 04:11:52|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f99d0>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4f990>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4acd0>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1a10>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02e7d0>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0b96d0>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02e7d0>
+2025-09-07 04:11:53|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f49890>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f735467d0>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7182b950>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10390>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f909f9ed0>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a900ed0>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97e90>
+2025-09-07 04:11:54|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97fd0>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f89550>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a900ed0>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6fb10>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f96050>
+2025-09-07 04:11:55|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a09890>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b0615d0>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c10350>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f89550>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02b0d0>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08fd0>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f88390>
+2025-09-07 04:11:56|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a09890>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08fd0>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e990>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe23d0>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f58ed0>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97bd0>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97e90>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4acd0>
+2025-09-07 04:11:57|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e990>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f58ed0>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f97e90>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f73547010>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6e8d0>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97f990>
+2025-09-07 04:11:58|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a900ed0>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a08fd0>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97f990>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908c1dd0>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a9016d0>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97f990>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd3790>
+2025-09-07 04:11:59|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908c1dd0>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f010>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a9016d0>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2010>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c11350>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f010>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:12:00|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7355c050>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908c1dd0>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c11350>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f908c2650>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f7355c050>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f763d0>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f59c11350>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5a97f990>
+2025-09-07 04:12:01|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b061890>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f599d0>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a09890>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b061890>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f763d0>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02b0d0>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90f6b950>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4b050>
+2025-09-07 04:12:02|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f010>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f6ef50>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f80950>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd1890>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71804410>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48ed0>
+2025-09-07 04:12:03|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f71829290>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f48ed0>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afe2e50>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd8350>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5afd3790>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f5b02f010>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f90a29e10>
+2025-09-07 04:12:04|picamera2.picamera2| DEBUG   | Execute job: <picamera2.job.Job object at 0x7f72f4d110>
+2025-09-07 04:12:05|picamera2.picamera2| INFO    | Camera stopped
+2025-09-07 04:12:05|picamera2.picamera2| INFO    | Camera closed successfully.
