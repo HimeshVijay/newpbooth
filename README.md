@@ -1,77 +1,77 @@
 ?? Raspberry Pi Photobooth App
+==============================
 
-This is a DIY Photobooth project for Raspberry Pi 4 + Camera Module 3.
-It provides:
+A DIY Photobooth project for Raspberry Pi 4 + Camera Module 3.
 
-? Live camera preview with natural colors
+? Features:
+- ?? Live preview with natural colors
+- ?? Snapshot capture on click
+- ??? Tkinter GUI interface
+- ?? Optional Google Drive / Gmail upload
 
-? Snapshot capture on click
-
-? GUI (Tkinter) interface
-
-? Optional Google Drive / Gmail integration
-
+------------------------------
 ?? Requirements
+------------------------------
+- Raspberry Pi OS Bookworm or later
+- Raspberry Pi 4 (recommended)
+- Raspberry Pi Camera Module 3 (tested)
 
-Raspberry Pi OS Bookworm or later
-
-Raspberry Pi 4 (recommended)
-
-Raspberry Pi Camera Module 3 (tested)
-
+------------------------------
 ?? Installation
+------------------------------
 
-Run the following commands on your Raspberry Pi:
-
-1. Update system
+1?? Update system
+-----------------
 sudo apt update && sudo apt full-upgrade -y
 
-2. Install system dependencies
+2?? Install system dependencies
+-------------------------------
 sudo apt install -y \
-python3-picamera2 \
-python3-numpy \
-python3-pil.imagetk \
-python3-tk \
-libcamera-apps
+  python3-picamera2 \
+  python3-numpy \
+  python3-pil.imagetk \
+  python3-tk \
+  libcamera-apps
 
-3. Install Python packages
-
-?? On Raspberry Pi OS Bookworm, use --break-system-packages when installing via pip.
+3?? Install Python dependencies
+-------------------------------
+?? On Raspberry Pi OS Bookworm, use --break-system-packages.
 
 pip install --break-system-packages Pillow opencv-python
 pip install --break-system-packages google-api-python-client google-auth google-auth-oauthlib google-auth-httplib2
 
-
-If you’re using legacy Google auth code:
-
+?? If you’re still using legacy Google auth code:
 pip install --break-system-packages oauth2client
 
+------------------------------
 ?? Usage
+------------------------------
+1. Connect your Raspberry Pi Camera Module 3
+2. Stop PipeWire from grabbing /dev/video0 & /dev/video1:
+   systemctl --user stop pipewire wireplumber
+3. Run the photobooth app:
+   bash photobooth.sh
 
-Connect your Raspberry Pi Camera Module 3.
-
-Stop PipeWire from grabbing /dev/video0 & /dev/video1:
-
-systemctl --user stop pipewire wireplumber
-
-
-Launch the photobooth:
-
-bash photobooth.sh
-
+------------------------------
 ?? Testing the Camera
-
-Before running the app, test your camera works:
-
+------------------------------
+Before running the app, test your camera:
 libcamera-hello -t 5000
 
+? If you see a preview ? your camera works correctly.
 
-If you see a preview, your camera is working correctly.
-
+------------------------------
 ?? Notes
+------------------------------
+- ?? Use RGB888 format in cv2_camera.py for natural colors
+- ?? Google Drive / Gmail features need a credentials.json from Google Cloud Console
+- ?? If you only want local photos, just comment out Google API code in user_interface.py
 
-If the preview colors look washed out, ensure you’re using RGB888 format in cv2_camera.py.
+------------------------------
+?? Pro Tips
+------------------------------
+- Add a countdown overlay before snapshots for a real photobooth vibe ??
+- Save images with timestamps for easy sorting
+- Integrate a GPIO push button to trigger captures
 
-Google Drive/Gmail features require a credentials JSON file from the Google Cloud Console.
-
-If you just want local photos, comment out the Google API sections in user_interface.py.
+?? With this setup, your photobooth app runs reliably without dependency errors.
